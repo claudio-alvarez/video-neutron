@@ -1,0 +1,14 @@
+COMPILE="-Djava.library.path=../opencv/build/lib -classpath ../opencv/build/bin/opencv-246.jar"
+
+
+
+
+gcc --shared -I/usr/lib/jvm/java-7-openjdk-i386/include LibHelloWorld.c -o libHelloWorld.so
+
+
+
+Pasos
+Javac
+Javah
+g++ --shared -I/usr/lib/jvm/java-7-openjdk-i386/include `pkg-config --cflags opencv` Libcvideo.c `pkg-config --libs opencv` -o libcvideo.so
+

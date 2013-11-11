@@ -1,0 +1,10 @@
+Comando para compilar C++ con opencv
+g++ `pkg-config --cflags opencv` codename.cpp `pkg-config --libs opencv` -o codename
+
+http://ubuntuforums.org/showthread.php?t=2151251
+11/11/2013
+
+
+
+gcc --shared -I/usr/lib/jvm/java-7-openjdk-i386/include `pkg-config --cflags opencv` Libcvideo.c `pkg-config --libs opencv` -o libcvideo.so
+

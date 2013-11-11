@@ -1,0 +1,17 @@
+default
+:/home/vermouth/Desktop/opencv-2.4.6.1/samples/java/sbt/sbt
+:home/vermouth/Desktop/opencv-2.4.6.1/samples/java/sbt/sbt
+home/vermouth/Desktop/opencv-2.4.6.1/samples/java/sbt/sbt
+Desktop/opencv-2.4.6.1/samples/java/sbt/sbt
+/sbt
+target
+ls
+cd
+..
+:
+:target
+run
+sbt/sbt run
+sbt
+sbt run
+run

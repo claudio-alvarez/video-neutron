@@ -1,0 +1,6 @@
+Comando para compilar C++ con opencv
+g++ `pkg-config --cflags opencv` codename.cpp `pkg-config --libs opencv` -o codename
+
+http://ubuntuforums.org/showthread.php?t=2151251
+11/11/2013
+

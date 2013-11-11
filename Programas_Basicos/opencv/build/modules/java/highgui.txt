@@ -1,0 +1,18 @@
+PORTED FUNCs LIST (4 of 4):
+
+ Mat imdecode(Mat buf, int flags)
+ bool imencode(string ext, Mat img, vector_uchar& buf, vector_int params = vector<int>())
+ Mat imread(string filename, int flags = 1)
+ bool imwrite(string filename, Mat img, vector_int params = vector<int>())
+
+SKIPPED FUNCs LIST (0 of 4):
+
+
+0 def args - 1 funcs
+1 def args - 3 funcs
+
+class as MAP:
+	
+
+class SIMPLE:
+	
