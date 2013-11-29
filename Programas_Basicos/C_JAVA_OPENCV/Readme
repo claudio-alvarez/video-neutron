@@ -2,4 +2,4 @@ Pasos
 Javac
 Javah
 g++ --shared -I/usr/lib/jvm/java-7-openjdk-i386/include `pkg-config --cflags opencv` Libcvideo.c `pkg-config --libs opencv` -o libcvideo.so
-
+java -Djava.library.path=. cvideo
